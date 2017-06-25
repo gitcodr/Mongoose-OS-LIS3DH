@@ -1,0 +1,19 @@
+author: mongoose-os
+description: Arduino Adafruit LIS3DH library
+type: lib
+version: 1.0
+
+sources:
+  - src
+
+libs:
+  - name: arduino-wire
+  - name: arduino-spi
+  - name: arduino-compat
+
+tags:
+  - arduino
+  - c
+  - js
+
+skeleton_version: 2017-05-18
