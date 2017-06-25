@@ -7,9 +7,9 @@ sources:
   - src
 
 libs:
-  - name: arduino-wire
-  - name: arduino-spi
-  - name: arduino-compat
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
+  - origin: https://github.com/mongoose-os-libs/arduino-wire
+  - origin: https://github.com/mongoose-os-libs/arduino-spi
 
 tags:
   - arduino
